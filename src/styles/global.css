@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "dana", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@layer base {
+
+    li {
+        @apply cursor-pointer
+    }
+
+
+    input {
+        @apply focus:outline-none
+    }
+
+}
